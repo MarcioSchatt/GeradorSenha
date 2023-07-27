@@ -25,6 +25,6 @@ python passgen.py
 
 ```bash
 Digite o comprimento da senha desejado: 12
-Digite os tipos de caracteres desejados (l - minúsculas, u - maiúsculas, d - dígitos, s - símbolos): luds
+Digite os tipos de caracteres desejados (1 - minúsculas, 2 - maiúsculas, 3 - dígitos, 4 - símbolos): 1234
 Senha gerada: b5ytZpa6ndjK
 ```
