@@ -16,8 +16,8 @@ python passgen.py
 ```
 5. Siga as instruções apresentadas pelo script:
 
-- Digite o comprimento da senha desejado (número de caracteres).
-- Digite os tipos de caracteres desejados para a senha (l - minúsculas, u - maiúsculas, d - dígitos, s - símbolos).
+    - Digite o comprimento da senha desejado (número de caracteres).
+    - Digite os tipos de caracteres desejados para a senha (1 - minúsculas, 2 - maiúsculas, 3 - dígitos, 4 - símbolos).
 
 6. O script irá gerar e exibir a senha personalizada para você.
 
