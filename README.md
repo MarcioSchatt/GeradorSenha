@@ -15,7 +15,6 @@ O PassGen é um gerador de senhas escrito em Python que permite aos usuários ge
 python passgen.py
 ```
 5. Siga as instruções apresentadas pelo script:
-
     - Digite o comprimento da senha desejado (número de caracteres).
     - Digite os tipos de caracteres desejados para a senha (1 - minúsculas, 2 - maiúsculas, 3 - dígitos, 4 - símbolos).
 
