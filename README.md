@@ -44,6 +44,10 @@ A tela do gerador de senhas será aberta, e você poderá começar a usá-lo.
 3. Clique no botão "Gerar Senha".
 4. A senha gerada será exibida no campo correspondente.
 
+## Layout da Tela
+
+![Gerador de Senhas](screenshot.png)
+
 ## Licença
 
 **Este projeto está licenciado sob a [Licença MIT](LICENSE.txt). Sinta-se à vontade para usar, modificar e distribuir.**
