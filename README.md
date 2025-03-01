@@ -6,7 +6,7 @@ Este é um gerador de senhas aleatórias desenvolvido em Python utilizando a bib
 
 ## Técnologias Utilizadas
 
-- **Python**: Linguagem de programação usada para criar a lógica da calculadora.
+- **Python**: Linguagem de programação usada para criar a lógica do gerador de senhas.
 - **Tkinter**: Biblioteca padrão do Python para criar interfaces gráficas.
 
 ## Funcionalidades
@@ -17,7 +17,7 @@ Este é um gerador de senhas aleatórias desenvolvido em Python utilizando a bib
 
 ## Como Executar
 
-Para começar a usar a calculadora, siga os passos abaixo:
+Para começar a usar o gerador de senhas, siga os passos abaixo:
 - **Clone o Repositório**: Primeiro, clone o repositório para o seu computador usando o Git. No Terminal, execute o seguinte comando:
 ```
 git clone https://github.com/MarcioSchatt/PasswordGenerator.git
