@@ -11,9 +11,10 @@ Este é um gerador de senhas aleatórias desenvolvido em Python utilizando a bib
 
 ## Funcionalidades
 
-- **Comprimento**: Escolha do comprimento da senha.
+- **Comprimento**: Escolha do comprimento da senha
 - **Caracteres Alternativos**: Inclusão opcional de caracteres minúsculos, maiúsculos, dígitos e símbolos
-- **Senha gerada**: Exibição da senha gerada para cópia
+- **Senha Gerada**: Exibição da senha gerada para cópia
+- **Copiar Senha**: Botão para copiar a senha automaticamente
 
 ## Como Executar
 
@@ -43,6 +44,7 @@ A tela do gerador de senhas será aberta, e você poderá começar a usá-lo.
 2. Selecione os tipos de caracteres desejados.
 3. Clique no botão "Gerar Senha".
 4. A senha gerada será exibida no campo correspondente.
+5. Para copiar a senha pode clicar no botão "Copiar senha".
 
 ## Layout da Tela
 

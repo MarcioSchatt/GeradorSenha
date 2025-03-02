@@ -61,20 +61,30 @@ def on_click() -> None:
         if senha:
             entry_senha.delete(0, tk.END)
             entry_senha.insert(0, senha)
+            btn_copiar.config(state=tk.NORMAL)
     except ValueError:
         messagebox.showerror(
             "Erro", "Digite um número válido para o comprimento.")
+
+
+def copiar_senha() -> None:
+    """
+    Copia a senha gerada para a área de transferência.
+    """
+    senha = entry_senha.get()
+    gui.clipboard_clear()
+    gui.clipboard_append(senha)
 
 
 def main() -> None:
     """
     Configura e exibe a interface gráfica do gerador de senhas.
     """
-    global entry_comprimento, entry_senha, bool_minusculas, bool_maiusculas, bool_digitos, bool_simbolos
+    global entry_comprimento, entry_senha, bool_minusculas, bool_maiusculas, bool_digitos, bool_simbolos, gui, btn_copiar
 
     gui = tk.Tk()
     gui.title("PasswordGenerator - Gerador de Senhas")
-    gui.geometry("400x200")
+    gui.geometry("400x250")
     gui.resizable(False, False)
 
     top = tk.Frame(gui)
@@ -104,11 +114,15 @@ def main() -> None:
     tk.Checkbutton(
         opcoes, text="Símbolos", variable=bool_simbolos).grid(row=0, column=3, padx=5, pady=2)
 
-    btn = tk.Button(gui, text="Gerar Senha", command=on_click)
-    btn.pack(pady=10)
+    btn_gerar = tk.Button(gui, text="Gerar Senha", command=on_click)
+    btn_gerar.pack(pady=10)
 
     entry_senha = tk.Entry(gui, width=40, justify='center')
     entry_senha.pack(pady=5)
+
+    btn_copiar = tk.Button(
+        gui, text="Copiar Senha", command=copiar_senha, state=tk.DISABLED)
+    btn_copiar.pack(pady=5)
 
     gui.mainloop()
 
