@@ -1,4 +1,4 @@
-# Gerador de Senhas
+# Gerador de Senhas em Python com Tkinter
 
 ## Descrição
 
