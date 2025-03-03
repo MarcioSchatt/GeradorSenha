@@ -4,7 +4,7 @@
 
 Este é um gerador de senhas aleatórias desenvolvido em Python utilizando a biblioteca Tkinter para criar uma interface gráfica simples e intuitiva. O programa permite ao usuário escolher o comprimento da senha e selecionar quais tipos de caracteres deseja incluir: minúsculas, maiúsculas, dígitos e símbolos especiais.
 
-## Técnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python**: Linguagem de programação usada para criar a lógica do gerador de senhas.
 - **Tkinter**: Biblioteca padrão do Python para criar interfaces gráficas.
